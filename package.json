@@ -1,0 +1,29 @@
+{
+  "name": "mern-tutorial",
+  "version": "1.0.0",
+  "description": "Goalsetter app using MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikerooksby/mern-tutorial.git"
+  },
+  "author": "Mike Rooksby Jr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikerooksby/mern-tutorial/issues"
+  },
+  "homepage": "https://github.com/mikerooksby/mern-tutorial#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
